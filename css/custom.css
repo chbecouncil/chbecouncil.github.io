@@ -2765,3 +2765,15 @@ iframe{
         margin-right: 0;
     }
 }
+/*fixed image */
+.img-fixed,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width:100%;
+  max-width: 240px;
+  height: 100%;
+  max-height: 330px;
+}
