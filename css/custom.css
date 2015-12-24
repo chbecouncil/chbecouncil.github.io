@@ -2772,17 +2772,8 @@ iframe{
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  /*width:100%;*/
-  width: 240px;
-  height: 330px;
-  overflow: hidden;
-}
-.contain {
-width: 240px;
-height: 330px;
-overflow: hidden;
-}
-.contain img {
-width: 100%;
-margin-top: 0px; /* -100px will crop from the top so change this value until it's around the middle of the image */
+  width:100%;
+  max-width: 240px;
+  height: 100%;
+  max-height: 330px;
 }
