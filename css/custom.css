@@ -2776,3 +2776,8 @@ iframe{
   height: 100%;
   max-height: 330px;
 }
+
+.event {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
