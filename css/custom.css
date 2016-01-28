@@ -2781,3 +2781,7 @@ iframe{
     margin-bottom: 50px;
     margin-top: 50px;
 }
+
+.single-member img{
+    max-height: 230px;
+}
