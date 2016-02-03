@@ -126,7 +126,7 @@ a{
 .feature_sub{
     color:#000;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 40px;
     font-weight: 400;
 }
 
@@ -2781,3 +2781,8 @@ iframe{
     margin-bottom: 50px;
     margin-top: 50px;
 }
+
+.single-member img{
+    max-height: 230px;
+}
+
