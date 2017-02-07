@@ -516,7 +516,28 @@ ul.navbar-nav > .active > a{
     width: 100%;
     display: block;
 }
-
+.overlay-slide1{
+    height: 850px;
+    position: relative;
+    width: 100%;
+}
+.overlay-slide1:after{
+    /*background: url("../images/banner/overaly.png");*/
+    position: absolute;
+    content: "";
+    z-index: 3;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.overlay-slide1 img{
+    /*opacity:.6;*/
+   /* width: 100%;
+    height: auto;*/
+    width: 100%;
+    display: block;
+}
 /*-- Animation --*/
 
 .carousel .item.active .animated2 {
