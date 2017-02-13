@@ -103,6 +103,12 @@ p{
 a{
     text-decoration:none;
 }
+#gray{
+    background-color:#f2f2f2;
+}
+
+
+
 .div-img{
     position:relative;
     display:inline-block;
@@ -2653,6 +2659,10 @@ iframe{
 
 .team-row{
     margin-bottom: 120px;
+    margin-top: 20px;
+}
+.team-row1{
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 
